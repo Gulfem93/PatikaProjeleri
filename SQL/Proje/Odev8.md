@@ -62,4 +62,25 @@
 
 ###### 3. Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
+    UPDATE employee
+    SET name = 'Hakan'
+    WHERE id = 5
+
+    UPDATE employee
+    SET name = 'Gökhan'
+    WHERE id = 100
+
+    UPDATE employee
+    SET name = 'Deniz'
+    WHERE id = 70
+
+    UPDATE employee
+    SET name = 'Buket'
+    WHERE id = 25
+
+    UPDATE employee
+    SET name = 'Derya'
+    WHERE id = 40
+
+
 ###### 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
