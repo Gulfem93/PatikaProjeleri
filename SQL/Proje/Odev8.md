@@ -84,3 +84,6 @@
 
 
 ###### 4. Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+    
+    DELETE FROM employee
+    WHERE id IN(4, 6, 8, 10, 12)
